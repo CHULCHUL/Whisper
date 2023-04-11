@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A261169E29E3F06400064284 /* WhisperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261169D29E3F06400064284 /* WhisperApp.swift */; };
-		A26116A029E3F06400064284 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261169F29E3F06400064284 /* ContentView.swift */; };
 		A26116A229E3F06500064284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26116A129E3F06500064284 /* Assets.xcassets */; };
 		A26116A529E3F06500064284 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26116A429E3F06500064284 /* Preview Assets.xcassets */; };
 		A26116A729E3F06500064284 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116A629E3F06500064284 /* Persistence.swift */; };
@@ -16,6 +15,16 @@
 		A26116B529E3F06500064284 /* WhisperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116B429E3F06500064284 /* WhisperTests.swift */; };
 		A26116BF29E3F06600064284 /* WhisperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116BE29E3F06600064284 /* WhisperUITests.swift */; };
 		A26116C129E3F06600064284 /* WhisperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116C029E3F06600064284 /* WhisperUITestsLaunchTests.swift */; };
+		A26116D029E3F1D700064284 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116CF29E3F1D700064284 /* MainView.swift */; };
+		A26116D229E3F20000064284 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116D129E3F20000064284 /* OnboardingView.swift */; };
+		A26116D429E3F23800064284 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116D329E3F23800064284 /* LocationManager.swift */; };
+		A26116D629E419AE00064284 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116D529E419AE00064284 /* View+.swift */; };
+		A26116D829E529F300064284 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116D729E529F300064284 /* MapView.swift */; };
+		A26116DA29E52A7E00064284 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116D929E52A7E00064284 /* Extension+.swift */; };
+		A26116DC29E531C500064284 /* MapView+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116DB29E531C500064284 /* MapView+Coordinator.swift */; };
+		A26116DE29E5328B00064284 /* MainView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116DD29E5328B00064284 /* MainView+ViewModel.swift */; };
+		A26116E029E5357800064284 /* DimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26116DF29E5357800064284 /* DimView.swift */; };
+		A26116E229E5370900064284 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26116E129E5370900064284 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,6 @@
 /* Begin PBXFileReference section */
 		A261169A29E3F06400064284 /* Whisper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whisper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A261169D29E3F06400064284 /* WhisperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperApp.swift; sourceTree = "<group>"; };
-		A261169F29E3F06400064284 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A26116A129E3F06500064284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26116A429E3F06500064284 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A26116A629E3F06500064284 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		A26116BA29E3F06600064284 /* WhisperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhisperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26116BE29E3F06600064284 /* WhisperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperUITests.swift; sourceTree = "<group>"; };
 		A26116C029E3F06600064284 /* WhisperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A26116CF29E3F1D700064284 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A26116D129E3F20000064284 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A26116D329E3F23800064284 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A26116D529E419AE00064284 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		A26116D729E529F300064284 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A26116D929E52A7E00064284 /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
+		A26116DB29E531C500064284 /* MapView+Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+Coordinator.swift"; sourceTree = "<group>"; };
+		A26116DD29E5328B00064284 /* MainView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView+ViewModel.swift"; sourceTree = "<group>"; };
+		A26116DF29E5357800064284 /* DimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimView.swift; sourceTree = "<group>"; };
+		A26116E129E5370900064284 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +118,21 @@
 			isa = PBXGroup;
 			children = (
 				A261169D29E3F06400064284 /* WhisperApp.swift */,
-				A261169F29E3F06400064284 /* ContentView.swift */,
+				A26116CF29E3F1D700064284 /* MainView.swift */,
+				A26116DD29E5328B00064284 /* MainView+ViewModel.swift */,
+				A26116D129E3F20000064284 /* OnboardingView.swift */,
+				A26116D329E3F23800064284 /* LocationManager.swift */,
+				A26116D729E529F300064284 /* MapView.swift */,
+				A26116DB29E531C500064284 /* MapView+Coordinator.swift */,
 				A26116A129E3F06500064284 /* Assets.xcassets */,
 				A26116A629E3F06500064284 /* Persistence.swift */,
 				A26116AB29E3F06500064284 /* Info.plist */,
 				A26116A829E3F06500064284 /* Whisper.xcdatamodeld */,
 				A26116A329E3F06500064284 /* Preview Content */,
+				A26116D529E419AE00064284 /* View+.swift */,
+				A26116D929E52A7E00064284 /* Extension+.swift */,
+				A26116DF29E5357800064284 /* DimView.swift */,
+				A26116E129E5370900064284 /* Launch Screen.storyboard */,
 			);
 			path = Whisper;
 			sourceTree = "<group>";
@@ -239,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26116E229E5370900064284 /* Launch Screen.storyboard in Resources */,
 				A26116A529E3F06500064284 /* Preview Assets.xcassets in Resources */,
 				A26116A229E3F06500064284 /* Assets.xcassets in Resources */,
 			);
@@ -265,10 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26116DC29E531C500064284 /* MapView+Coordinator.swift in Sources */,
 				A26116A729E3F06500064284 /* Persistence.swift in Sources */,
-				A26116A029E3F06400064284 /* ContentView.swift in Sources */,
+				A26116D829E529F300064284 /* MapView.swift in Sources */,
+				A26116DE29E5328B00064284 /* MainView+ViewModel.swift in Sources */,
 				A26116AA29E3F06500064284 /* Whisper.xcdatamodeld in Sources */,
+				A26116D429E3F23800064284 /* LocationManager.swift in Sources */,
+				A26116D029E3F1D700064284 /* MainView.swift in Sources */,
+				A26116D629E419AE00064284 /* View+.swift in Sources */,
+				A26116D229E3F20000064284 /* OnboardingView.swift in Sources */,
+				A26116E029E5357800064284 /* DimView.swift in Sources */,
 				A261169E29E3F06400064284 /* WhisperApp.swift in Sources */,
+				A26116DA29E52A7E00064284 /* Extension+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,13 +463,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Whisper/Preview Content\"";
+				DEVELOPMENT_TEAM = M49GZVCJ3B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Whisper/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치를 줘야 앱을 쓴다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,13 +496,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Whisper/Preview Content\"";
+				DEVELOPMENT_TEAM = M49GZVCJ3B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Whisper/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치를 줘야 앱을 쓴다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
